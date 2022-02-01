@@ -4,7 +4,7 @@ This repository consist of Python code for extracting cloud free Sentinel-2 Lago
 
 ### Running the Code
 To run the script in the desired Python environment
-* Google Colab - Lagos - Cloud Free Satellite Image.ipynb
+* Google Colab - Lagos_Cloud_Free_Satellite_Image.ipynb
 * PyCharm - lagos_cloud_free_satellite_image.py
 
 ### Parameters chosen to fine tune the image
