@@ -1,11 +1,11 @@
 # Cloud-Free Satellite Image Preprocessing
 
-This repository consist of Python code for extracting cloud-free Sentinel-2 Lagos image from Google Earth Engine.
+This repository consist of Python code for extracting cloud-free Sentinel-2 images for Lagos, Accra and Nairobi from Google Earth Engine.
 
 ### Running the Code
-To run the script in the desired Python environment select the following
-* Google Colab - Lagos_Cloud_Free_Satellite_Image.ipynb
-* PyCharm - lagos_cloud_free_satellite_image.py
+To run the script in the desired Python environment select the following 
+* Google Colab(.ipynb)
+* PyCharm(.py)
 
 ### Parameters chosen to fine-tune the image
 
