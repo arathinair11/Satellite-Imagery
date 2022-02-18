@@ -10,7 +10,7 @@ Create a [Google Earth Engine](https://earthengine.google.com) account before ru
 
 * pip install folium
 
-#### Parameters chosen to fine-tune the image
+#### Parameters chosen to fine-tune the image:
 
 * START_DATE 
 * END_DATE 
@@ -19,7 +19,7 @@ Create a [Google Earth Engine](https://earthengine.google.com) account before ru
 * CLD_PRJ_DIST 
 * BUFFER
 
-#### References 
+#### References:
 
 * [Sentinel-2 Cloud Masking with s2cloudless](https://developers.google.com/earth-engine/tutorials/community/sentinel-2-s2cloudless)
 
