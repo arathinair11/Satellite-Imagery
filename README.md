@@ -15,7 +15,7 @@ Create a [Google Earth Engine](https://earthengine.google.com) account before ru
 * CLD_PRJ_DIST 
 * BUFFER
 
-### For CNN Autoencoder code, connect to AWS server and the execute the .py file. 
+### For CNN Autoencoder code, connect to AWS server and execute the .py file. 
 * CNN Autoencoder.py - Trained using satellite images extracted from the training dataset coordinates(coordinates.csv)
 * CNN_Autoencoder_Unlabeled.py - Trained using satellite images extracted randomly using the shapefile coordinates(Lagos_Shapefile.csv)
 
