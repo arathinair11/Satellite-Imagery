@@ -19,8 +19,6 @@ Create a [Google Earth Engine](https://earthengine.google.com) account before ru
 * CNN Autoencoder.py - Trained using satellite images extracted from the training dataset coordinates(coordinates.csv)
 * CNN_Autoencoder_Unlabeled.py - Trained using satellite images extracted randomly using the shapefile coordinates(Lagos_Shapefile.csv)
 
-#### References:
-
+##### References:
 * [Sentinel-2 Cloud Masking with s2cloudless](https://developers.google.com/earth-engine/tutorials/community/sentinel-2-s2cloudless)
-
 * [Exporting Image](https://colab.research.google.com/github/csaybar/EEwPython/blob/dev/10_Export.ipynb#scrollTo=M9EbU74_ESvY)
