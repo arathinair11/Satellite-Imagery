@@ -1,4 +1,4 @@
-# Mapping Deprived Areas In Low & Middle Income Countries Using Satellite Images
+## Mapping Deprived Areas In Low & Middle Income Countries Using Satellite Images
 
 This repository consist of Python code for extracting cloud-free Sentinel-2 images for Lagos, Accra and Nairobi from Google Earth Engine and a CNN Autoencoder for image classification.
 
