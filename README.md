@@ -17,7 +17,7 @@ Create a [Google Earth Engine](https://earthengine.google.com) account before ru
 
 ### For CNN Autoencoder code: 
 * CNN Autoencoder.py - Trained using satellite images extracted from the training dataset coordinates(coordinates.csv)
-* Image_Classification.py - Classified training dataset labaled images using the Encoder model
+* Image_Classification.py - Classification of labeled images in the training dataset using the Encoder model
 
 ##### References:
 * [Sentinel-2 Cloud Masking with s2cloudless](https://developers.google.com/earth-engine/tutorials/community/sentinel-2-s2cloudless)
