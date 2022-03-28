@@ -2,7 +2,7 @@
 
 This repository consist of Python code for extracting cloud-free Sentinel-2 images for Lagos, Accra and Nairobi from Google Earth Engine and a CNN Autoencoder for image classification.
 
-### Steps for executing the cloud-free Sentinel-2 code:
+### For executing the cloud-free Sentinel-2 code:
 Create a [Google Earth Engine](https://earthengine.google.com) account before running the code.
 ##### Library Installations:
 * pip install earthengine-api
@@ -15,9 +15,9 @@ Create a [Google Earth Engine](https://earthengine.google.com) account before ru
 * CLD_PRJ_DIST 
 * BUFFER
 
-### For CNN Autoencoder code, connect to AWS server and execute the .py file. 
+### For CNN Autoencoder code. 
 * CNN Autoencoder.py - Trained using satellite images extracted from the training dataset coordinates(coordinates.csv)
-* CNN_Autoencoder_Unlabeled.py - Trained using satellite images extracted randomly using the shapefile coordinates(Lagos_Shapefile.csv)
+* Image_Classification.py - Classified training dataset labaled images using the Encoder model
 
 ##### References:
 * [Sentinel-2 Cloud Masking with s2cloudless](https://developers.google.com/earth-engine/tutorials/community/sentinel-2-s2cloudless)
