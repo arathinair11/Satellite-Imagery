@@ -15,7 +15,7 @@ Create a [Google Earth Engine](https://earthengine.google.com) account before ru
 * CLD_PRJ_DIST 
 * BUFFER
 
-### For CNN Autoencoder code. 
+### For CNN Autoencoder code: 
 * CNN Autoencoder.py - Trained using satellite images extracted from the training dataset coordinates(coordinates.csv)
 * Image_Classification.py - Classified training dataset labaled images using the Encoder model
 
