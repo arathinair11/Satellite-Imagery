@@ -4,9 +4,13 @@
 This repository consist of Python code for extracting cloud-free Sentinel-2 images from Google Earth Engine and implementation of CNN & MLP Autoencoder for image reconstruction and training image classification usng Pytorch.
 
 #### Dependencies
-- Python3, Scikit-learn
-- Pytorch, PIL
 ```
+Python package installations
+- Python3, Scikit-learn, Pytorch, Osgeo, Gdal
+- PIL, Rasterio, Scikit-image
+```
+```
+To run Google Earth Engine on Google Colab
 - pip install earthengine-api
 - pip install folium
 ```
@@ -22,7 +26,7 @@ This repository consist of Python code for extracting cloud-free Sentinel-2 imag
    - Parameters chosen for image fine-tuning : *START_DATE,END_DATE,CLOUD_FILTER,CLD_PRB_THRESH,CLD_PRJ_DIST,BUFFER*
 - [Image_Extraction.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Clipping%20%26%20PNG%20Conversion/Image_Extraction.py) : Clipping 10 x 10 pixels from TIF files and filtering PNG images 
 - [ConvertToPNG.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Clipping%20%26%20PNG%20Conversion/ConvertToPNG.py) : Converting 10 x 10 pixel TIF images to PNG format
-- [TIF Files](https://drive.google.com/drive/folders/1y-t8iV_hT73FOQrflBfAui3L1wc6osST?usp=sharing) : Download final Cloud-Free TIF images for Lagos, Accra and Nairobi
+- [TIF Files](https://drive.google.com/drive/folders/1y-t8iV_hT73FOQrflBfAui3L1wc6osST?usp=sharing) : Download final Cloud-Free TIF images for Lagos, Accra and Nairobi. The files can also be downloaded from the World Bank server *(/home/ubuntu/Autoencoder/Autoencoder/TIF_Files)*.
 
 #### **2. Image Reconstruction**
 - [CNN Autoencoder](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/CNN_Autoencoder.py) : Code for image reconstruction using Convolutional Autoencoder
