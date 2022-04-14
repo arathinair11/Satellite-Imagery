@@ -20,12 +20,13 @@ To run Google Earth Engine on Google Colab
 #### **1. Cloud Free Sentinel-2 Image Extraction**
 - Create a [Google Earth Engine](https://earthengine.google.com) account before running the code.
 
-  - [Lagos_Cloud_Free_Satellite_Image.ipynb](https://github.com/arathinair11/Satellite-Imagery/blob/main/Lagos/Lagos_Cloud_Free_Satellite_Image.ipynb) :  Code for extracting cloud free Sentinel-2 image for Lagos in TIF format
-  - [Accra_Cloud_Free_Satellite_Image.ipynb](https://github.com/arathinair11/Satellite-Imagery/blob/main/Accra/Accra_Cloud_Free_Satellite_Image.ipynb) : Code for extracting cloud free Sentinel-2 image for Accra in TIF format
+  - [Lagos_Cloud_Free_Satellite_Image.ipynb](https://github.com/arathinair11/Satellite-Imagery/blob/main/Lagos/Lagos_Cloud_Free_Satellite_Image.ipynb) :  Code for extracting cloud free Sentinel-2 image for Lagos in TIF format.
+  - [Accra_Cloud_Free_Satellite_Image.ipynb](https://github.com/arathinair11/Satellite-Imagery/blob/main/Accra/Accra_Cloud_Free_Satellite_Image.ipynb) : Code for extracting cloud free Sentinel-2 image for Accra in TIF format.
   - [Nairobi_Cloud_Free_Satellite_Image.ipynb](https://github.com/arathinair11/Satellite-Imagery/blob/main/Nairobi/Nairobi_Cloud_Free_Satellite_Image.ipynb) : Code for extracting cloud free Sentinel-2 image for Nairobi in TIF format
    - Parameters chosen for image fine-tuning : *START_DATE,END_DATE,CLOUD_FILTER,CLD_PRB_THRESH,CLD_PRJ_DIST,BUFFER*
-- [Image_Extraction.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Clipping%20%26%20PNG%20Conversion/Image_Extraction.py) : Clipping 10 x 10 pixels from TIF files and filtering PNG images 
-- [ConvertToPNG.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Clipping%20%26%20PNG%20Conversion/ConvertToPNG.py) : Converting 10 x 10 pixel TIF images to PNG format
+- [Image_Extraction.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Extraction%20%26%20Processing/Image_Extraction.py) : Clipping 10 x 10 pixels from TIF files.
+- [ConvertToPNG.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Extraction%20%26%20Processing/ConvertToPNG.py) : Converting 10 x 10 pixel TIF images to PNG format.
+- [Image_Filteration.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Extraction%20%26%20Processing/Image_Filteration.py) : Flitering images less than 10 x 10 px or blank images.
 - [TIF Files](https://drive.google.com/drive/folders/1y-t8iV_hT73FOQrflBfAui3L1wc6osST?usp=sharing) : Download final Cloud-Free TIF images for Lagos, Accra and Nairobi. The files can also be downloaded from the World Bank server *(/home/ubuntu/Autoencoder/Autoencoder/TIF_Files)*.
 
 #### **2. Image Reconstruction**
@@ -33,6 +34,6 @@ To run Google Earth Engine on Google Colab
 - [MLP Autoencoder](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/MLP_Autoencoder.py) : Code for image reconstruction using  Multilayer Perceptron Autoencoder
 
 #### **3. Image Classification** 
-- [Image_Classification.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Image_Classfication.py) : Classification of labeled images in the training dataset using the saved [Encoder model](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Path/enoder_autoencoder.pth) from the Autoencoder
+- [Image_Classification.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Image_Classfication.py) : Classification of labeled images in the training dataset using the saved [CNN encoder model](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Model/enoder_autoencoder.pth) from the Autoencoder
 
 
