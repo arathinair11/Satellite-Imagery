@@ -6,7 +6,7 @@ This repository consist of Python code for extracting cloud-free Sentinel-2 imag
 #### Dependencies
 ```
 Python package installations
-- Python3, Scikit-learn, Pytorch, Osgeo, Gdal
+- Python3, Scikit-learn, Pytorch, Gdal
 - PIL, Rasterio, Scikit-image
 ```
 ```
