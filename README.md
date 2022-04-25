@@ -16,7 +16,7 @@ To run Google Earth Engine on Google Colab
 ```
 #### Remote Server
 ```
-All files are saved on World Bank server and can be accessed from *(/home/ubuntu/Autoencoder/Final)* path.
+All files are saved on World Bank server and can be accessed from (/home/ubuntu/Autoencoder/Final) path.
 ```
 ## Files 
 
