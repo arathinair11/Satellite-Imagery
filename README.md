@@ -34,7 +34,7 @@ To run Google Earth Engine on Google Colab
 - [MLP Autoencoder](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/MLP_Autoencoder.py) : Code for image reconstruction using  Multilayer Perceptron Autoencoder
 
 #### **3. Image Classification** 
-- [Image_Classification_CNN.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Image_Classification/Image_Classification_CNN.py) : Classification of labeled images in the training dataset using the saved [CNN encoder model](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Model/enoder_autoencoder.pth) from the CNN Autoencoder
+- [Image_Classification_CNN.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Image_Classification/Image_Classification_CNN.py) : Classification of labeled images in the training dataset using the saved [CNN encoder model](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Model/cnn_encoder_autoencoder.pth) from the CNN Autoencoder
 - [Image_Classification_MLP.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Image_Classification/Image_Classification_MLP.py) : 
 Classification of labeled images in the training dataset using the saved [MLP encoder model](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/Model/mlp_enoder_autoencoder.pth) from the MLP Autoencoder
 
