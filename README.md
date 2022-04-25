@@ -14,7 +14,10 @@ To run Google Earth Engine on Google Colab
 - pip install earthengine-api
 - pip install folium
 ```
-
+#### Remote Server
+```
+All files are saved on World Bank server and can be accessed from *(/home/ubuntu/Autoencoder/Final)* path.
+```
 ## Files 
 
 #### **1. Cloud Free Sentinel-2 Image Extraction**
@@ -27,7 +30,8 @@ To run Google Earth Engine on Google Colab
 - [Image_Extraction.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Extraction%20%26%20Processing/Image_Extraction.py) : Clipping 10 x 10 pixels from TIF files.
 - [ConvertToPNG.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Extraction%20%26%20Processing/ConvertToPNG.py) : Converting 10 x 10 pixel TIF images to PNG format.
 - [Image_Filteration.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Extraction%20%26%20Processing/Image_Filteration.py) : Flitering images less than 10 x 10 px or blank images.
-- [TIF Files](https://drive.google.com/drive/folders/1y-t8iV_hT73FOQrflBfAui3L1wc6osST?usp=sharing) : Download final Cloud-Free TIF images for Lagos, Accra and Nairobi. The files can also be downloaded from the World Bank server *(/home/ubuntu/Autoencoder/Autoencoder/TIF_Files)*.
+- [Combine_Satellite_PNG.py](https://github.com/arathinair11/Satellite-Imagery/blob/main/Image%20Extraction%20%26%20Processing/Combine_Satellite_PNG.py) : Combines all final PNG images for Lagos, Accra, Nairobi into a single folder.
+- [TIF Files](https://drive.google.com/drive/folders/1y-t8iV_hT73FOQrflBfAui3L1wc6osST?usp=sharing) : Download final Cloud-Free TIF images for Lagos, Accra and Nairobi. The files can also be downloaded from the World Bank server *(/home/ubuntu/Autoencoder/Final/TIF Files)*.
 
 #### **2. Image Reconstruction**
 - [CNN Autoencoder](https://github.com/arathinair11/Satellite-Imagery/blob/main/Autoencoder/CNN_Autoencoder.py) : Code for image reconstruction using Convolutional Autoencoder
